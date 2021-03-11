@@ -6,7 +6,7 @@ namespace AssetPublisher
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Publisher.Send("TestMessage");
         }
     }
 }
